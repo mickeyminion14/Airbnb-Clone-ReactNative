@@ -10,12 +10,14 @@
 
 import React from 'react';
 import {SafeAreaView} from 'react-native';
+import PropertyCard from './src/components/PropertyCard';
 import HomeScreen from './src/screens/Home';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <PropertyCard />
     </SafeAreaView>
   );
 };
